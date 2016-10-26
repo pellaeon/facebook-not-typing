@@ -9,9 +9,10 @@ chrome.webRequest.onBeforeRequest.addListener(
 				"https://www.facebook.com/ajax/typeahead/*",
 				"https://www.facebook.com/ufi/typing/*",
 				"https://pixel.facebook.com/ajax/chat/opentab_tracking.php*",
-				"https://www.facebook.com/ajax/messaging/typ.php*"
+				"https://www.facebook.com/ajax/messaging/typ.php*",
+				"https://www.facebook.com/ai.php*"
 			],
-			types: ["xmlhttprequest"]
+			types: ["xmlhttprequest", "sub_frame"]
 		},
 		// extraInfoSpec
 		["blocking"]
