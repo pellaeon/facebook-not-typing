@@ -11,6 +11,8 @@
 		"activeTab",
 		"webRequest",
 		"webRequestBlocking",
-		"https://www.facebook.com/"
+		"https://www.facebook.com/",
+		"https://*.fna.fbcdn.net/",
+		"https://pixel.facebook.com"
 	]
 }

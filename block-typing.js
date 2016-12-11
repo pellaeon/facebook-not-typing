@@ -10,7 +10,8 @@ chrome.webRequest.onBeforeRequest.addListener(
 				"https://www.facebook.com/ufi/typing/*",
 				"https://pixel.facebook.com/ajax/chat/opentab_tracking.php*",
 				"https://www.facebook.com/ajax/messaging/typ.php*",
-				"https://www.facebook.com/ai.php*"
+				"https://www.facebook.com/ai.php*",
+				"https://*.fna.fbcdn.net/v*"
 			],
 			types: ["xmlhttprequest", "sub_frame"]
 		},

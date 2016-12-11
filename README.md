@@ -1,6 +1,11 @@
 # Facebook Not Typing
 
-This Chrome extension blocks Facebook from knowing that you're typing a comment or message. Downside is that tagging people in comments doesn't work, you might want to disable this extension in this case.
+This Chrome extension started originally to block Facebook from knowing that you're typing a comment or message, though later I further include blocking more things:
+
+- Block Facebook from knowing when you open a chat dialog with someone (`https://pixel.facebook.com/ajax/chat/opentab_tracking.php`)
+- From my observation, Facebook preloads the initial frames of videos, this extension also blocks that.
+
+Note that with this extension, tagging someone in a post will break.
 
 ## Install
 
